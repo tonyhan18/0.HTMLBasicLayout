@@ -1,42 +1,65 @@
-body {background: #c8e6c9;}
-#container {
-    width: 1000px;
-    height: 900px;
-    margin: 0 auto;
+/* */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrap {
+    width: 100%;
+    height: 1000px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-}
-#header {
+    text-transform: uppercase;
+  }
+  #header-wrap {
+    width: 100%;
+    background-color: #8d6e63;
+  }
+  #banner-wrap {
+    width: 100%;
+    background: #a1887f;
+  }
+  #content-wrap {
+    width: 100%;
+    background: #bcaaa4;
+  }
+  #footer-wrap {
+    width: 100%;
+    background: #d7ccc8;
+  }
+  /*자식이 height 값을 가지고 있으면 부모의 height 값은 없어도 된다.
+  width:100%는 기본 값이기 때문에 없어도 된다.
+  부모는 배경색과 위치 정도만 지정해주어도 된다.
+  */
+  .header-container {
     width: 1000px;
     height: 100px;
     line-height: 100px;
-    background-color: #2e7d32;
-}
-#nav{
+    margin: 0 auto;
+    background-color: #3e2723;
+  }
+  
+  .banner-container {
+    width: 1000px;
+    height: 300px;
+    line-height: 300px;
+    margin: 0 auto;
+    background-color: #4e342e;
+  }
+  
+  .content-container {
+    width: 1000px;
+    height: 500px;
+    line-height: 500px;
+    margin: 0 auto;
+    background-color: #5d4037;
+  }
+  
+  .footer-container {
     width: 1000px;
     height: 100px;
     line-height: 100px;
-    background: #388e3c;
-}
-#side {
-    float: left;
-    width: 300px;
-    height: 600px;
-    line-height: 600px;
-    background: #43a047;
-}
-#contents {
-    float: left;
-    width: 700px;
-    height: 600px;
-    line-height: 600px;
-    background: #4caf50;
-}
-#footer{
-    float: left;
-    width: 1000px;
-    height: 100px;
-    line-height: 100px;
-    background: #66bb6a;
-}
+    margin: 0 auto;
+    background-color: #6d4c41;
+  }

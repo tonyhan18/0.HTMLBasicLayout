@@ -1,0 +1,72 @@
+/* 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 전체 레이아웃 */
+#wrap {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#header {
+  height: 140px;
+}
+#banner {
+  height: 450px;
+  line-height: 450px;
+  background: #4dd0e1;
+}
+#contents {
+  height: 950px;
+}
+#footer {
+  height: 220px;
+}
+/*자식이 height 값을 가지고 있으면 부모의 height 값은 없어도 된다.
+width:100%는 기본 값이기 때문에 없어도 된다.
+부모로 컨트롤 하는 방법
+*/
+#header-top {
+  height: 70px;
+  line-height: 70px;
+  background-color: #b2ebf2;
+}
+#header-nav {
+  height: 70px;
+  line-height: 70px;
+  background-color: #80deea;
+}
+#content1 {
+  height: 90px;
+  line-height: 90px;
+  background-color: #26c6da;
+}
+#content2 {
+  height: 480px;
+  line-height: 90px;
+  background-color: #00bcd4;
+}
+#content3 {
+  height: 380px;
+  line-height: 90px;
+  background-color: #00acc1;
+}
+#footer-nav {
+  height: 60px;
+  line-height: 60px;
+  background-color: #0097a7;
+}
+#footer-info {
+  height: 160px;
+  line-height: 160px;
+  background-color: #00838f;
+}
+.container {
+  width: 1100px;
+  height: inherit;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
