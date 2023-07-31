@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Header */
+header {
+  color: white;
+  background: cadetblue;
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+  padding: 5px 0;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1.3;
+  color: white;
+  background: teal;
+}
+
+nav a:hover {
+  background: yellowgreen;
+}
+
+/* Main */
+main {
+  padding: 20px 0;
+}
+
+article {
+  padding-bottom: 10px;
+}
+
+article h1 {
+  padding-bottom: 10px;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+aside {
+  border-top: 15px solid teal;
+  color: white;
+  background: cadetblue;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background: teal;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) {
+  nav a {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  
+  nav li:last-child a {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header h2 {
+    float: left;
+    font-size: 2rem;
+  }
+  
+  nav {
+    float: right;
+    width: 60%;
+  }
+  
+  main article {
+    float: left;
+    width: 70%;
+  }
+  
+  main aside {
+    float: right;
+    width: 30%;
+  }
+}
+
+/* Common */
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.wrapper {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
